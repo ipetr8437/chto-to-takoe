@@ -1,0 +1,16 @@
+python
+# Ввод чисел с клавиатуры
+num1 = float(input("Введите первое число: "))
+num2 = float(input("Введите второе число: "))
+
+# Выполнение операций
+sum_result = num1 + num2  # Сложение
+diff_result = num1 - num2  # Вычитание
+mul_result = num1 * num2  # Умножение
+div_result = num1 / num2  # Деление
+
+# Вывод результатов
+print("Сумма:", sum_result)
+print("Разность:", diff_result)
+print("Произведение:", mul_result)
+print("Частное:", div_result)
